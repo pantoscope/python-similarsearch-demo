@@ -10,5 +10,7 @@ Open apiDemo.py in a text editor and replace 'your ID here' and 'your secret her
 Once you have your credentials set, run the script with two commandline arguments, the path to or url of the image to search on, and the search mode. <br>
 The search mode should be one of: "url", "local_image", "remote_image", indicating that the input image is an absolute URI, a local path to an image, or the URI of an image, respectively.<br>
 The output will be a list of image URLs with features similar to the input image.
+#Sample execution
+<code>python apiDemo.py http://goo.gl/8fgVc4 url</code>
 #More information
 Check out http://developer.scopemedia.com/docs/similar-image-search/ for more information!
