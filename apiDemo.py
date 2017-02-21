@@ -1,6 +1,3 @@
-#Author: Samuel Hutchinson
-# Date:  21/02/2017
-
 #Similar Image Search api demo
 import requests
 import sys
