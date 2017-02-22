@@ -24,7 +24,7 @@ if __name__ == "__main__":
         search_mode = sys.argv[2]
 
         if search_mode == "url": #search similar: URL
-            payload = {"mediaUrl": img_url}
+            payload = {"appId":"fashion","mediaUrl": img_url}
             header = {'Content-Type': 'application/json'}
             s = requests.Session()
             s.headers.update(header)
@@ -45,7 +45,7 @@ if __name__ == "__main__":
             else:
                 print "Use arguments: image_url, search_mode=[url, local_image, remote_image]"
 
-            payload = {"encodedMediaFile": encoded_string}
+            payload = {"appId":"fashion","encodedMediaFile": encoded_string}
             header = {'Content-Type': 'application/json'}
             s = requests.Session()
             s.headers.update(header)
