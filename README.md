@@ -12,5 +12,7 @@ The search mode should be one of: "url", "local_image", "remote_image", indicati
 The output will be a list of image URLs with features similar to the input image.
 #Sample execution
 <code>python apiDemo.py http://goo.gl/8fgVc4 url</code>
+#Sample output
+![alt tag](https://github.com/pantoscope/python-similarsearch-demo/blob/master/example_output.png)
 #More information
 Check out http://developer.scopemedia.com/docs/similar-image-search/ for more information!
