@@ -11,17 +11,17 @@ Once you have your credentials set, run the script with two commandline argument
 The search mode should be one of: "local", "remote", indicating that the input image is a local path to an image, or the URI of an image, respectively.<br>
 The output will be a list of image URLs with features similar to the input image.
 #Sample execution
-1. Help
+* Help
 ```
 python apiDemo.py --help
 ```
 
-2. Remote Url
+* Remote Url
 ```
 python apiDemo.py -m remote -r http://goo.gl/8fgVc4
 ```
 
-3. Local File
+* Local File
 ```
 python apiDemo.py -m local -l ./example_output.png
 ```
