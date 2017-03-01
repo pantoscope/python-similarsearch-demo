@@ -13,7 +13,7 @@ clientId = "your ID here" #replace with your clientId
 clientSecret = "your SECRET here" #replace with your clientSecret
 mUrl = "http://goo.gl/8fgVc4" #default media to search on
 
-ip = 'http://api.scopemedia.com'
+ip = 'https://api.scopemedia.com'
 api = "/search-service/api/v1/search/similar"
 
 def initial_parameters():
