@@ -1,6 +1,6 @@
 ScopeMedia Python Demo - Similar Image Search
 =====
-An example showing how the Similar Image Search API is used.
+An example showing how Similar Image Search API is used.
 
 Installation and System Requirements
 -----
