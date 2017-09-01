@@ -1,34 +1,38 @@
-# python-similarsearch-demo
-A simple example showing how the Similar Image Search API is used
-#How to get started
-Simply clone this repo or download apiDemo.py.<br>
-You will need Python2.7 installed with the [requests](http://docs.python-requests.org/en/master/) library
-#Usage
-First you need to register at http://developer.scopemedia.com/.<br>
-When you are registered, create an application and you will receive your client ID and client Secret which you will use to authenticate your requests.<br>
-Open apiDemo.py in a text editor and replace 'your ID here' and 'your SECRET here' with your client ID and Secret for the variables <code>clientId</code> and <code>clientSecret</code>. Save the file.<br>
-Once you have your credentials set, run the script with two commandline arguments, the path to or url of the image to search on, and the search mode. <br>
-The search mode should be one of: "local", "remote", indicating that the input image is a local path to an image, or the URI of an image, respectively.<br>
-The output will be a list of image URLs with features similar to the input image.
-#Sample execution
-* Help
+ScopeMedia Python Demo - Similar Image Search
+=====
+An example showing how the Similar Image Search API is used.
+
+Installation and System Requirements
+-----
+Clone this repository or download api_demo.py. You need to install Python 2.7 and [Requests](http://docs.python-requests.org/) module in order to run the demo.
+
+Usage
+-----
+This project uses a demo account's image set, which has 200 fashion images. You can input an image URL or image file to search similar images in the image set.
+
+To use your image set, edit api_demo.py and replace the value of clientId and clientSecret with your application's credentials from [dashboard](https://api.scopemedia.com/#/dashboard/products/ScopeCheck/feature).
+
+Help:
 ```
-python apiDemo.py --help
+python api_demo.py -h
 ```
 
-* Remote Url
+Search by URL:
 ```
-python apiDemo.py -m remote -r http://goo.gl/8fgVc4
-```
-
-* Local File
-```
-python apiDemo.py -m local -l ./example_output.png
+python api_demo.py -u http://example.com/example.jpg
 ```
 
-#Sample output
-![alt tag](https://github.com/pantoscope/python-similarsearch-demo/blob/master/example_output.png)
-#More information
-Check out http://developer.scopemedia.com/docs/similar-image-search/ for more information!
+Search by image file:
+```
+python api_demo.py -u example.jpg
+```
 
+The search result will be output as a list of medias, which has it's ID and URL.
 
+Screenshot
+-----
+![screenshot](screenshot.png)
+
+Links
+-----
+* [ScopeMedia API](https://developer.scopemedia.com/documentation/)
