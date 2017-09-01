@@ -4,13 +4,13 @@ An example showing how the Similar Image Search API is used.
 
 Installation and System Requirements
 -----
-Clone this repository or download api_demo.py. You need to install Python 2.7 and [Requests](http://docs.python-requests.org/) module in order to run the demo.
+Clone this repository or download **api_demo.py**. You need to install Python 2.7 and [Requests](http://docs.python-requests.org/) module in order to run the demo.
 
 Usage
 -----
 This project uses a demo account's image set, which has 200 fashion images. You can input an image URL or image file to search similar images in the image set.
 
-To use your image set, edit api_demo.py and replace the value of clientId and clientSecret with your application's credentials from [dashboard](https://api.scopemedia.com/#/dashboard/products/ScopeCheck/feature).
+To use your image set, edit **api_demo.py** and replace the value of clientId and clientSecret with your application's credentials from [dashboard](https://api.scopemedia.com/#/dashboard/products/ScopeCheck/feature).
 
 Help:
 ```
