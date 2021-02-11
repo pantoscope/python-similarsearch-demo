@@ -1,4 +1,4 @@
-ScopeMedia Python Demo - Similar Image Search
+ScopeAI Python Demo - Similar Image Search
 =====
 An example showing how Similar Image Search API is used.
 
@@ -10,7 +10,7 @@ Usage
 -----
 This project uses a demo account's image set, which has 200 fashion images. You can input an image URL or image file to search similar images in the image set.
 
-To use your image set, edit **api_demo.py** and replace the value of clientId and clientSecret with your application's credentials from [dashboard](https://api.scopemedia.com/#/dashboard/products/ScopeCheck/feature).
+To use your image set, edit **api_demo.py** and replace the value of clientId and clientSecret with your application's credentials from [ScopeAI Console](https://console.scopemedia.com/).
 
 Help:
 ```
@@ -35,4 +35,4 @@ Screenshot
 
 Links
 -----
-* [ScopeMedia API](https://developer.scopemedia.com/documentation/)
+* [ScopeAI Documentation](https://docs.scopemedia.com/)

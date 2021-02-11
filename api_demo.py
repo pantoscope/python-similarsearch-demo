@@ -1,6 +1,6 @@
 # ScopeMedia Python Demo - Similar Image Search
 # URL: https://github.com/ScopeMediaInc/python-similarsearch-demo
-# Docs: https://developer.scopemedia.com/documentation
+# Docs: https://docs.scopemedia.com
 import requests
 import sys
 import os
@@ -15,7 +15,7 @@ import argparse
 clientId = 'ukKxYOZL94oDmIiPOO5GfREQHLglY25gkttmhFurUmmHSNSW1srrIY0ErT6lB3Eo'
 clientSecret = 'eWq0bU8j80R5b96YZmqfWNIYVugMj89m4P79qSKl4FyYiLMBQ23TuHf56gF9RrWh'
 
-API_URL = 'https://api.scopemedia.com/search/v2/similar'
+API_URL = 'https://api.scopemedia.com/simile/v2/search'
 
 def similar_search(payload):
     response = requestSession.post(API_URL, json.dumps(payload))
